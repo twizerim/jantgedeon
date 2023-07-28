@@ -103,6 +103,9 @@
     .welcome-text {
       width: 100%;
     }
+    .image-container img {
+      height: 60%;
+    }
     .card-container {
       display: flex;
       flex-direction: column;
@@ -111,6 +114,9 @@
   @media (max-width: 576px) {
     .heading-title {
       font-size: 3.2rem;
+    }
+    .image-container img {
+      height: 40%;
     }
   }
   

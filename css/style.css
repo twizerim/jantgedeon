@@ -461,7 +461,7 @@ nav {
   overflow: hidden;
   border-radius: 12px;
 }
-.skills-content:hover .skills-content--content {
+.skills-content:hover .skills-co.ntent--content {
   display: flex;
 }
 @keyframes scroll {
@@ -684,4 +684,20 @@ textarea {
 }
 .menu-icon i {
   font-size: 3rem;
+}
+/* ------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
+.back{
+  background-color: #00000077;
+}
+.form{
+  padding: 2rem;
+  background-color: #0000005e;
+
+}
+.form label{
+  background-color: #0be716;
+  font-size: 2rem;
+  padding: 2rem;
 }
