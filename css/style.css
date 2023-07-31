@@ -689,15 +689,64 @@ textarea {
 /* ----------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
 .back{
-  background-color: #00000077;
+  background-color: #000000af;
+  justify-content: center;
+}
+.back a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 2rem;
+  border: solid;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 0, 0, 0.767);
+}
+.back a:hover{
+  background-color: red;
+  transform: translateY(-3px);
+  box-shadow: 2px 3px 3px #e76f6fbc;
 }
 .form{
   padding: 2rem;
   background-color: #0000005e;
-
+  text-align: center;
+}
+.form h1{
+  padding: 3rem;
 }
 .form label{
-  background-color: #0be716;
   font-size: 2rem;
   padding: 2rem;
+  gap: 2rem;
+}
+.form .inputname{
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+.form .inputemeil{
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+}
+.form .inputgrade{
+  margin-bottom: 1.5rem;
+}
+ .form .inputnumber{
+  margin-left: 6.5rem;
+  margin-bottom: 1.5rem;
+}
+.form .inputcv{
+  margin-left: 4rem;
+  margin-top: 1.5rem;
+}
+.form input{
+  width: 57%;
+}
+.go{
+  margin-top: 1.5rem;
+  font-size: 3rem;
+}
+.go a{
+  text-decoration: none;
+  background-color: rgba(142, 8, 15, 0.753);
+  color: whitesmoke;
 }
