@@ -682,73 +682,59 @@ textarea {
 /* ----------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
 .back{
-  background-color: #000000e1;
+  background-color: #0000004d;
   justify-content: center;
-  
+}
+.login{
+  background-image: linear-gradient(to right, rgba(11, 199, 11, 0.726), #460231d7, #1707f8d7),url(../images/notbook\ 4.png);
+  justify-content: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.in{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
 }
 .back a{
   font-size: 2.5rem;
   text-decoration: none;
-  color: whitesmoke;
-  border-radius: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(255, 0, 0, 0.822);
-
-}
-.back a:hover{
-  background-color:rgb(142, 8, 15);
-  transform: translateY(-3px);
-  box-shadow: 2px 3px 3px blue;
+   color: whitesmoke;
 }
 .form{
   padding: 2rem;
-  background-color: #000000c7;
-  text-align: center;
+  background-color: #0000004d;
+  width: 40%;
+  border-radius: 1rem;
 
 }
 .form label{
   font-size: 2rem;
-}
-.input-name{
-  margin: 1.5rem;
-  margin-left: 3rem;
-  width: 40%;
-}
-.input-email{
-  margin-bottom: 1.5rem;
-  margin-left: 3.8rem;
-  width: 40%;
-}
-.input-id{
-  margin-bottom: 1.5rem;
-  margin-left: 7rem;
-  width: 40%;
-}
-.nation{
-  margin-bottom: 1.5rem;
-  width: 40%;
-}
-.input-pass{
-  width: 40%;
-  margin-bottom: 3rem;
-}
-.form a{
-  font-size: 2.5rem;
-  text-decoration: none;
   color: whitesmoke;
+  font-weight: bold;
+}
+.form input{
+  width: 100%;
   border-radius: 1.5rem;
-  padding: 1rem;
-  background-color:rgb(142, 8, 15);
 }
-.form h1{
-  padding: 2rem;
+p{
+  font-size: 2rem;
 }
-.form a:hover{
-  background-color:rgba(255, 0, 0, 0.822);
-  transform: translateY(-3px);
-  box-shadow: 2px 3px 3px blue;
+button{
+  font-size: 2rem;
+  margin: 3rem;
+  padding: 1.3rem 3rem;
+  border-radius: 1.5rem;
 }
-textarea{
-  margin-bottom: 6rem;
-  justify-content: center;
+button a{
+  text-decoration: none;
+}
+a{
+  color: blue;
+}
+.sinup a{
+  padding: 1.3rem 15rem;
 }
