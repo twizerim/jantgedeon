@@ -681,42 +681,37 @@ textarea {
 /* ------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
-.back{
-  background-color: #0000004d;
+.peter{
+  background-color: #00000063;
   justify-content: center;
-}
-.login{
-  background-image: linear-gradient(to right, rgba(11, 199, 11, 0.726), #460231d7, #1707f8d7),url(../images/notbook\ 4.png);
-  justify-content: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
 }
 .in{
   display: flex;
+  gap: 3rem;
+  font-size: 3rem;
+}
+.in li{
+  list-style: none;
+}
+.nav-link{
+  font-size: 3rem;
+}
+.home{
+  background-image: linear-gradient(to right, rgba(11, 199, 11, 0.726), #460231d7, #1707f8d7),url(../images/notbook\ 4.png);
   justify-content: center;
+  object-fit: cover;
+  background-repeat:no-repeat;
 }
 h1{
   font-size: 3rem;
   text-align: center;
 }
-.back a{
-  font-size: 2.5rem;
-  text-decoration: none;
-   color: whitesmoke;
-}
-.form{
-  padding: 2rem;
-  background-color: #0000004d;
-  width: 40%;
-  border-radius: 1rem;
-
-}
-.form label{
+.home label{
   font-size: 2rem;
   color: whitesmoke;
   font-weight: bold;
 }
-.form input{
+.home input{
   width: 100%;
   border-radius: 1.5rem;
 }
@@ -729,12 +724,9 @@ button{
   padding: 1.3rem 3rem;
   border-radius: 1.5rem;
 }
-button a{
-  text-decoration: none;
-}
 a{
   color: blue;
 }
 .sinup a{
   padding: 1.3rem 15rem;
-}
+} 

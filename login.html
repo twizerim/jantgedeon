@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>log in form</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-    <nav class="back">
-        <a href="./index.html">Go-back</a>
-    </nav>
-    <div class="login">
-    <h1>Log-In</h1>
-    <div class="in">
-    <div class="form">
-        <div>
-            <label for="">User names</label>
-            <input type="text" class="input-name" placeholder="type here your name please"required>
+    !DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/style.css" />
+      </head>
+      <body>
+        <nav class="peter">
+          <ul class="in">
+            <li >
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="./muhoza/signup.html" class="nav-link">Login</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Blogs</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="home">
+          <form action="">
+            <h1>Log-In</h1>
+            <div>
+              <label for="username">Username</label>
+              <input type="username" id="username" name="username" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div >
+              <button type="submit" class="btn">Next</button>
+            </div>
+            <p>if you don't have an account. <a href="./muhoza/signup.html">Sign-Up</a></p>
+          </form>
         </div>
-        <div>
-            <label for="">Email</label>
-            <input type="email" class="input-email" placeholder="type here your email please"required>
-        </div>
-        <div>
-            <label for="">password</label>
-            <input type="text" class="input-pass" placeholder="type here your password please"required>
-        </div>
-        <button><a href="">Next</a></button>
-        <p>If you don't have any account  <a href="./muhoza/signup.html">Sign-up</a></p>
-    </div>
-    </div>
-    </div>
-    <script src="./index.js"></script> 
-</body>
-</html>
+        <script src="./js/login.js"></script>
+      </body>
+    </html>
+     
