@@ -93,6 +93,7 @@
       display: flex;
     }
   }
+  @media(max-width: 824){}
   @media (max-width: 768px) {
     .about-container,
     .portfolio-container,
@@ -102,6 +103,15 @@
     }
     .welcome-text {
       width: 100%;
+    }
+    .contact-right h3 {
+      font-size: 1.4rem;
+      font-weight:bold;
+    }
+    .contact-left p {
+      font-size: 1rem;
+    .contact-left h3 {
+      font-size: 1.4rem;
     }
     .image-container img {
       height: 60%;
