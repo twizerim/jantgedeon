@@ -440,6 +440,7 @@ nav {
   display: inline-block;
   margin-top: 2rem;
 }
+/* ---------------------------------------PORTIFORIOL----------------- */
 .skills-container {
   background-color: #222;
 }
@@ -449,9 +450,9 @@ nav {
   justify-content: space-between;
   gap: 3rem;
 }
-.skills-card {
-  width: 400px;
-  max-height: 400px;
+.skills-card{
+  max-width: 100%;
+  max-height: 50%;
   position: relative;
   overflow: hidden;
 }
@@ -461,67 +462,59 @@ nav {
   overflow: hidden;
   border-radius: 12px;
 }
-.skills-content:hover .skills-co.ntent--content {
+.skills-content:hover .skills-content--content {
   display: flex;
 }
 @keyframes scroll {
   0% {
     transform: translateY(80%);
   }
-  /* 25% {
-    transform: translateY(80%);
-  }
-  50% {
-    transform: translateY(60%);
-  }
-  75% {
-    transform: translateY(30%);
-  } */
   100% {
-    transform: translateY(0%);
+      transform: translateY(0%);
+    }
   }
-}
-.skills-content {
-  border-radius: 12px;
-  transition: all 10s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow-y: hidden;
-  width: 100%;
-  height: 100%;
-}
-.skills-content--content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  display: none;
-  overflow: hidden;
-
-  align-items: center;
-  border-radius: 12px;
-  padding: 3rem;
-  transition: all 0.8s;
-  animation-name: scroll;
-  animation-duration: 1s;
-  backdrop-filter: blur;
-  justify-content: center;
-  background-image: linear-gradient(
-    to left bottom,
-    rgba(0, 128, 0, 0.625),
-    rgba(147, 42, 42, 0.682)
-  );
-  border-bottom: 2px solid rgb(78, 221, 78);
-}
-
-.skills-content--content h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  font-weight: 700;
-}
-.skills-content--content p {
-  font-size: 1.6rem;
-}
+  .skills-content {
+      border-radius: 12px;
+      transition: all 10s;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow-y: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    .skills-content--content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      display: none;
+      overflow: hidden;
+    
+      align-items: center;
+      border-radius: 12px;
+      padding: 3rem;
+      transition: all 0.8s;
+      animation-name: scroll;
+      animation-duration: 1s;
+      backdrop-filter: blur;
+      justify-content: center;
+      background-image: linear-gradient(
+        to left bottom,
+        rgba(0, 128, 0, 0.625),
+        rgba(147, 42, 42, 0.682)
+      );
+      border-bottom: 2px solid rgb(78, 221, 78);
+    }
+    
+    .skills-content--content h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
+    .skills-content--content p {
+      font-size: 1rem;
+    }
 .skills-icon-container {
   background-color: #eee;
   display: block;
@@ -688,65 +681,52 @@ textarea {
 /* ------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------ */
-.back{
-  background-color: #000000af;
+.peter{
+  background-color: #00000063;
   justify-content: center;
 }
-.back a{
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 2rem;
-  border: solid;
-  border-radius: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(255, 0, 0, 0.767);
-}
-.back a:hover{
-  background-color: red;
-  transform: translateY(-3px);
-  box-shadow: 2px 3px 3px #e76f6fbc;
-}
-.form{
-  padding: 2rem;
-  background-color: #0000005e;
-  text-align: center;
-}
-.form h1{
-  padding: 3rem;
-}
-.form label{
-  font-size: 2rem;
-  padding: 2rem;
-  gap: 2rem;
-}
-.form .inputname{
-  margin-left: 3rem;
-  margin-bottom: 1.5rem;
-}
-.form .inputemeil{
-  margin-left: 4rem;
-  margin-bottom: 1.5rem;
-}
-.form .inputgrade{
-  margin-bottom: 1.5rem;
-}
- .form .inputnumber{
-  margin-left: 6.5rem;
-  margin-bottom: 1.5rem;
-}
-.form .inputcv{
-  margin-left: 4rem;
-  margin-top: 1.5rem;
-}
-.form input{
-  width: 57%;
-}
-.go{
-  margin-top: 1.5rem;
+.in{
+  display: flex;
+  gap: 3rem;
   font-size: 3rem;
 }
-.go a{
-  text-decoration: none;
-  background-color: rgba(142, 8, 15, 0.753);
-  color: whitesmoke;
+.in li{
+  list-style: none;
 }
+.nav-link{
+  font-size: 3rem;
+}
+.home{
+  background-image: linear-gradient(to right, rgba(11, 199, 11, 0.726), #460231d7, #1707f8d7),url(../images/notbook\ 4.png);
+  justify-content: center;
+  object-fit: cover;
+  background-repeat:no-repeat;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+.home label{
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.home input{
+  width: 100%;
+  border-radius: 1.5rem;
+}
+p{
+  font-size: 2rem;
+}
+button{
+  font-size: 2rem;
+  margin: 3rem;
+  padding: 1.3rem 3rem;
+  border-radius: 1.5rem;
+}
+a{
+  color: blue;
+}
+.sinup a{
+  padding: 1.3rem 15rem;
+} 
