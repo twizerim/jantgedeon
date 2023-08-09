@@ -14,6 +14,6 @@ form.addEventListener("submit",(e)=>{
     }else if(userExist && userExist.password!=password.value){
         alert("Wrong password")
     }else{
-        alert("user not exist signup first")
+        alert("user doesn't exists!")
     }
 })
