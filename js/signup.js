@@ -13,7 +13,7 @@ form.addEventListener("submit",(e)=>{
     let user={
         names:username.value,
         email:email.value,
-        id:identification,
+        id:identification.value,
         password:password.value,
     }
     if(users.find((titi)=>titi.email==email.value)){

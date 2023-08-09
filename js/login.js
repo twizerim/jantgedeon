@@ -10,11 +10,10 @@ form.addEventListener("submit",(e)=>{
 
     const userExist=users.find((user)=>user.email==email.value)
     if(userExist && userExist.password==password.value){
-        window.location.href="../"
+        window.location.href="./admin.html"
     }else if(userExist && userExist.password!=password.value){
         alert("Wrong password")
     }else{
         alert("user not exist signup first")
-        window.Location.href=""
     }
 })
