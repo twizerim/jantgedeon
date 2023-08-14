@@ -89,3 +89,14 @@ td {
   font-size: 1rem;
   text-align: center;
 }
+.message{
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: aliceblue;
+  width: 30%;
+  height: 10vh;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 1.5rem;
+  align-items: last baseline;
+}
