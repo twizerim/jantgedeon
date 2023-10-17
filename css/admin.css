@@ -94,9 +94,18 @@ td {
   font-weight: bold;
   background-color: aliceblue;
   width: 30%;
-  height: 10vh;
   padding: 1rem;
   box-shadow: 2px 2px 2px black;
   border-radius: 1.5rem;
   align-items: last baseline;
+}
+.card2{
+  display: grid;
+  grid-template-columns: repeat(1, 2rf);
+  background-color: rgba(110, 109, 108, 0.507);
+  width: 100%;
+
+}
+#mess{
+  font-size: 1.4rem;
 }
