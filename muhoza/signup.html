@@ -4,45 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
     <nav class="peter">
-      <ul class="in">
-        <li >
-          <a href="../index.html" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="../muhoza/login.html" class="nav-link">Login</a>
-        </li>
-        <li>
-          <a href="../muhoza/blog.html" class="nav-link">Blogs</a>
-        </li>
-        <li>
-            <a href="../index.html" class="nav-link">Go-back</a>
-        </li>
-      </ul>
+      <li ><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="../muhoza/login.html" class="nav-link">Login</a></li>
+      <li><a href="../muhoza/blog.html" class="nav-link">Blogs</a></li>
+      <li><a href="../index.html" class="nav-link">Go-back</a></li>
     </nav>
-    <div class="home">
-      <form action="">
+    <div class="homes">
+      <form action="" class="login-form">
         <h1>Sign-Up</h1>
-        <div>
+        <div class="group-login">
           <label for="username">Username</label>
           <input type="username" id="username" name="username" />
         </div>
-        <div>
+        <div class="group-login">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" />
         </div>
-        <div>
+        <div class="group-login">
             <label for="identification">identification</label>
             <input type="identification" id="idia" name="identification">
         </div>
-        <div>
+        <div class="group-login">
           <label for="password">Password</label>
           <input type="password" id="password" name="password" />
         </div>
-        <div >
+        <div class="group-login">
+          <label for="password">confrimPassword</label>
+          <input type="password" id="confrim" name="password" />
+          <i class="fa-solid fa-eye-slash"></i>
+        </div>
+
+        <div class="btnn">
           <button type="submit" class="btn">Sign-Up</button>
         </div>
       </form>

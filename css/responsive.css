@@ -136,6 +136,7 @@
     .contact{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
       
     }
   }
@@ -146,14 +147,42 @@
     .image-container img {
       height: 40%;
     }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+    }
   }
-  @media (max-width: 464px){
-    /* .contact-left {
-      width: 60%;
+  @media (max-width: 391px){
+    .contact-left {
+      width: 70%;
+      margin-left: 6rem;
     }
     .contact-right {
-      width: 60%;
+      width: 70%;
+      margin-left: 6rem;
+    }
+  }
+  @media(max-width:350px){
+    .logo {
+      display: none;
+    }
+    .contact-left {
+      width: 100%;
+      padding: 1rem;
+      margin-left: 0;
       
-    } */
+    }
+    .contact-right {
+      width: 100%;
+      padding: 1rem;
+      margin-left: 0;
+      
+    }
+    .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
