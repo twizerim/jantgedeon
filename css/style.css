@@ -11,14 +11,45 @@ html {
 }
 body {
   color: #eee;
-  width: 100%;
 
   font-family: "Poppins", sans-serif;
 }
+/* --------------------------------------------------nav itaboneka----------------------------------------------- */
+.nav-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 9999;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  scroll-behavior: smooth;
+
+}
+.logoo-icon{
+  background-color: rgb(255, 0, 191);
+  padding: 7rem 2rem;
+}
+.icon-nav-link{
+  background-color: #064f6b;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  list-style: none;
+}
+.icon-nav-link .nav-link{
+  margin-left: 2rem;
+  
+}
+
+/* ----------------------------------------------------------------------------- */
 nav {
   padding: 2rem;
   display: flex;
-  z-index: 9999;
+  /* z-index: 9999; */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
