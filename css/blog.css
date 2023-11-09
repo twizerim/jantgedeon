@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .links{
-    background-color: rgba(85, 49, 5, 0.767);
+    background-color: #ddd;
     font-size: 2.5rem;
 }
 ul{
@@ -28,13 +28,34 @@ li{
 }
 a{
     text-decoration: none;
+    color: rgb(199, 28, 190);
+    font-weight: 900;
+}
+.blogs-content{
+  background-image: linear-gradient(rgba(10, 99, 143, 0.979),rgba(245, 247, 248, 0.979),rgba(10, 99, 143, 0.979)),
+    url(../images/computer.png);
+    background-size: cover;
+}
+.all-see{
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.all-see li{
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  
+}
+.all-see li a{
+  color: rgb(133, 28, 127);
+  font-weight: 800;
+}
+.all-see li:hover{
+  background-color: aqua;
 }
 p{
     font-weight: bold;
     padding: 20% 20%;
-    font-size: 3rem;
-    background-image: linear-gradient(rgba(0, 128, 0, 0.637),rgba(122, 71, 9, 0.767),rgba(0, 0, 255, 0.555)),
-    url(../images/computer.png);
-    background-size: cover;
-    background-position: center center;
+    font-size: 3rem;  
 }

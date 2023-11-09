@@ -78,14 +78,34 @@ a{
 }
 table {
   border-collapse: collapse;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 th,
 td {
   border: 1px solid black;
-  padding: 1.5rem;
-  font-size: 1.6rem;
+  padding: 0.6rem;
+  font-size: 1rem;
   text-align: center;
+}
+.message{
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: aliceblue;
+  width: 30%;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 1.5rem;
+  align-items: last baseline;
+}
+.card2{
+  display: grid;
+  grid-template-columns: repeat(1, 2rf);
+  background-color: rgba(110, 109, 108, 0.507);
+  width: 100%;
+
+}
+#mess{
+  font-size: 1.4rem;
 }

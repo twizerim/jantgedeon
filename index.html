@@ -26,11 +26,28 @@
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
+    <div class="nav-icon">
+      <div class="logoo-icon">
+        <div class="logo-container">
+          <i class="fa-sharp fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+          <h3 class="logo"><i>TWIZERIMANA~<a href="#" style="color:rgb(255, 0, 191);text-decoration: none;">GEDEON</a></i></h3>
+        </div>
+      </div>
+      <ul class="icon-nav-link">
+        <li><a href="#home" class="nav-link ">Home</a></li>
+          <li><a href="#about-me" class="nav-link">About-Us</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="./muhoza/blog.html" class="nav-link">Blogs</a></li>
+          <li><a href="#contact" class="nav-link">Contact-Us</a></li>
+          <li><a href="./muhoza/login.html" class="nav-link">Log-In</a></li>
+      </ul>
+    </div>
+    <!-- ----------------------------------------------------ibidahari---------------------------------------------------- -->
     <nav>
       <div class="logo-container">
-        <h3 class="logo">TWIZERIMANA~GEDEON</h3>
+        <h3 class="logo"><i>TWIZERIMANA~<a href="#" style="color:rgb(255, 0, 191);text-decoration: none;">GEDEON</a></i></h3>
       </div>
-
       <div class="links">
         <ul class="nav-links">
           <li><a href="#home" class="nav-link homex">Home</a></li>
@@ -43,7 +60,7 @@
         </ul>
       </div>
       <div class="menu-icon" onclick="navOpen()">
-        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        <i class="fa-solid fa-bars" style="color: #ffffff" onclick="showNav()"></i>
       </div>
     </nav>
     <!--  -------------------------end of navbar------------------------------------- -->
@@ -51,10 +68,10 @@
     <div class="home-container" id="home">
       <div class="home">
         <div class="links-media-fixed">
-          <i class="fa-brands fa-github git"></i>
-          <i class="fa-brands fa-instagram git"></i>
-          <i class="fa-brands fa-twitter git"></i>
-          <i class="fa-brands fa-linkedin-in git"></i>
+          <i class="fa-brands fa-github git" style="color: #020202;"></i>
+          <i class="fa-brands fa-instagram git" style="color: #020202;"></i>
+          <i class="fa-brands fa-twitter git" style="color: #020202;"></i>
+          <i class="fa-brands fa-linkedin-in git" style="color: #020202;"></i>
         </div>
 
         <div class="welcome-text">
@@ -75,7 +92,7 @@
           <img src="./images/gedeon.jpg" />
         </div>
         <div class="email-link-fixed">
-          <p>gedeontwizeyimana@gmail.com</p>
+          <p style="color: #020202;">gedeontwizeyimana@gmail.com</p>
         </div>
       </div>
     </div>
@@ -214,44 +231,44 @@
           </p>
           <div class="social-media">
             <div class="media-icons">
-              <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+              <i class="fa-solid fa-envelope" style="color: #030303"></i>
               <div class="media-chat">
                 <h3>Chat to us</h3>
                 <p>
                   Chat to us Our friendly team is here to help you
-                  <span>gedeontwizeyimana@gmail.com</span>
+                  <span style="color: rgb(190, 19, 182);">gedeontwizeyimana@gmail.com</span>
                 </p>
               </div>
             </div>
             <div class="media-icons">
               <i
                 class="fa-sharp fa-solid fa-house-circle-exclamation"
-                style="color: #ffffff"
+                style="color: #050505"
               ></i>
               <div class="media-chat">
                 <h3>Chat to us</h3>
                 <p>
                   Chat to us Our friendly team is here to help you
-                  <span>gedeontwizeyimana@gmail.com</span>
+                  <span>user name on facebook: <a href="#" style="color: rgb(190, 19, 182);text-decoration: none;">TG Jant Gedeon</a></span>
                 </p>
               </div>
             </div>
             <div class="media-icons">
-              <i class="fa-solid fa-phone" style="color: #ffffff"></i>
+              <i class="fa-solid fa-phone" style="color: #020202"></i>
               <div class="media-chat">
                 <h3>Chat to us</h3>
                 <p>
                   Chat to us Our friendly team is here to help you
-                  <span>gedeontwizeyimana@gmail.com</span>
+                  <span style="color: rgb(190, 19, 182);">0783801966 / 0733117441</span>
                 </p>
               </div>
             </div>
           </div>
           <div class="social-media-icons-links">
-            <i class="fa-brands fa-github" style="color: #ccc"></i>
-            <i class="fa-brands fa-instagram" style="color: #ccc"></i>
-            <i class="fa-brands fa-twitter" style="color: #ccc"></i>
-            <i class="fa-brands fa-linkedin-in" style="color: #ccc"></i>
+            <i class="fa-brands fa-github" style="color: #050000"></i>
+            <i class="fa-brands fa-instagram" style="color: #080808"></i>
+            <i class="fa-brands fa-twitter" style="color: #070707"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #080808"></i>
           </div>
         </div>
         <div class="contact-right">
@@ -264,8 +281,8 @@
             <textarea name="message"id="message"cols="30"rows="5"placeholder="Type Your Message......"
             ></textarea>
 
-            <div class="button-container text-center">
-              <a href="#" class="btn btn-red">Send</a>
+            <div class="button-container">
+              <button type="submit">Send</button>
             </div>
           </form>
         </div>
@@ -274,6 +291,6 @@
     <div class="footer-container">
       <p>Copyright &copy;2023&lowast;Gedeon&lowast;</p>
     </div>
-    <script src="./index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

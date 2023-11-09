@@ -12,7 +12,7 @@ form.addEventListener("submit",(e)=>{
     if(userExist && userExist.password==password.value){
         window.location.href="./admin.html"
     }else if(userExist && userExist.password!=password.value){
-        alert("Wrong password")
+        alert("invald password")
     }else{
         alert("user doesn't exists!")
     }
